@@ -1,6 +1,7 @@
 // Setup empty JS object to act as endpoint for all routes
-projectData = {};
-
+projectData(request, response) ="zip code"
+projectData(request, response) ="feelings"
+projectData(request, response) ="generate"
 // Require Express to run server and routes
 const express = require('express');
 
@@ -25,7 +26,7 @@ app.use(express.static('website'));
 // Setup Server
 const port = 8000;
 const server = app.listen(port, listening);
-
+ 
 function listening() {
   console.log("server running"); 
 console.log(`running on localhost: ${port}`);

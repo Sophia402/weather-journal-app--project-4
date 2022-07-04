@@ -17,6 +17,7 @@ body{
 }
 
 .holder{
+    color: #f23557;
 
 }
 
@@ -25,26 +26,30 @@ body{
 }
 
 #entryHolder{
+    color: #f23557;
 
 }
 
 #date{
+    color: #f23557;
 
 }
 
 #temp{
+    color: #f23557;
 
 }
 
 #content{
+    color: aliceblue;
 
 }
 
-.headline {
+.headline {color: aqua;
 
 }
 .title{
-
+color: #22b2da;
 }
 
 /*  Basic Styling To Override Default For Basic HTML Elements */

@@ -1,8 +1,10 @@
 // Personal API Key for OpenWeatherMap API
-const apiKey = '0dfc83de93554651b37114843221606';
-projectData.push(request.body);
+const apiKey = 'e9750fee0f207a49b7ac2e05dcee874d';
+projectData.push(request.body);feelings
+projectData.push(request.body);zip-code
+projectData.push(request.body);generate
 /* Global Variables */
-const postData = async ( url = '', data = {})=>{
+const postData = async ( url = 'https://home.openweathermap.org/api_keys', data = {})=>{
     console.log(data);
       const response = await fetch(url, {
       method: 'POST', 
