@@ -1,7 +1,5 @@
 // Setup empty JS object to act as endpoint for all routes
-projectData(request, response) ="zip code"
-projectData(request, response) ="feelings"
-projectData(request, response) ="generate"
+const projectData={}
 // Require Express to run server and routes
 const express = require('express');
 
@@ -48,10 +46,10 @@ app.post('/add', callBack);
 function callBack(req,res){
   res.send('POST received')
 }
-const data = [];
+
 
 app.post('/weather', addWeather);
 
 function addWeather (req,res){
-    data.push(req.body);
+    projectData=req.bodynpm;
 };
