@@ -15,6 +15,9 @@
     "type": "git",
     "url": "se"
   },
-  "author": "",
-  "license": "ISC"
+  "author": "Rose",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
 }

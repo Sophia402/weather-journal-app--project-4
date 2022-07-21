@@ -44,12 +44,10 @@ app.post('/', function (req, res) {
 app.post('/add', callBack);
 
 function callBack(req,res){
-  res.send('POST received')
+ projectData.date=req.body.date;
+ projectData.temp=req.body.temp;
+ projectData.feelings=req.body.feelings; 
+  res.send(projectData)
 }
 
 
-app.post('/weather', addWeather);
-
-function addWeather (req,res){
-    projectData=req.bodynpm;
-};
